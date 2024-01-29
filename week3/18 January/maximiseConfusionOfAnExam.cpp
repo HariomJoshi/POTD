@@ -12,6 +12,7 @@ public:
         }else{
             c2 = 'T';
         }
+        
         while(e<n && st<n){
             while(e< n && t<= k){
                 if(s[e] == c2){
