@@ -14,7 +14,6 @@ public:
             v[i] = nums[i] + v[i-1];
         }
         // prefix sum ready
-        
         int ans = 0;
         unordered_map<int, int> mp;
         for(int i =0;i<n;i++){
