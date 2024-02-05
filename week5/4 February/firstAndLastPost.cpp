@@ -10,7 +10,7 @@ public:
         vector<int> ans;
         // an algorithm with complexity O(n) is simple run one for loop and record the first and last occurence of target but the callenge is to do the same thing in O(log n)
 
-        // part 1: find the fist occurence
+        // part 1: find the first occurence
         int l =0;
         int r = nums.size()-1;
 
